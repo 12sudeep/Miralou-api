@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { HomeResponse } from './dto/home.dto';
+import { HomeResponse } from './product/dto/home.dto';
 import { PrismaService } from './services/prisma.service';
 
 @Injectable()

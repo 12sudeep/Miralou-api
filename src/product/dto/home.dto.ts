@@ -1,6 +1,6 @@
-import { Category } from '@/entity/category.entity';
-import { Product } from '@/entity/product.entity';
 import { ApiProperty } from '@nestjs/swagger';
+import { Category } from '../entities/category.entity';
+import { Product } from '../entities/product.entity';
 
 export class HomeDto {
   @ApiProperty({ type: [Category] })

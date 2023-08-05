@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { ApiOkResponse } from '@nestjs/swagger';
 import { AppService } from './app.service';
-import { HomeResponse } from './dto/home.dto';
+import { HomeResponse } from './product/dto/home.dto';
 
 @Controller()
 export class AppController {
