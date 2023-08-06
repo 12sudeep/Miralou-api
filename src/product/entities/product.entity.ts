@@ -12,4 +12,10 @@ export class Product {
 
   @ApiProperty({ type: Number })
   price: number;
+
+  @ApiProperty({ type: Number })
+  category_id: number;
+
+  @ApiProperty({ type: Number })
+  rating: number;
 }
